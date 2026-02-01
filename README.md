@@ -1,3 +1,35 @@
+# 1. Redirección de correo y configuración cliente gráfico
+
+## 1.1. Configuración de Redirección y Filtros
+El objetivo es redirigir los correos corporativos a una cuenta personal de Gmail para mejorar la gestión de los mensajes.
+
+**Pasos seguidos:**
+1.  **Activación del Reenvío:** * Para ello accedemos a la configuración de la cuenta `@ieszaidinvergeles.org`.
+    * En el apartado de "Reenvío y correo POP/IMAP", añadimos la dirección de Gmail personal como destino.
+    * Debemos confirmas el código de verificación enviado por Google para validar la propiedad de la cuenta.
+      ![REENVIO](./images/reenvio.png)
+
+2.  **Creación del Filtro en Gmail:**
+    * Dentro de Gmail, nos dirigimos a la barra de búsqueda avanzada para filtrar correos provenientes de `*@ieszaidinvergeles.org`.
+    * Seleccionamos la opción **"Crear filtro"**.
+    * Y marcamos: **"Aplicar la etiqueta: Instituto"** y **"Nunca enviar a Spam"** (si no tenemos la etiqueta instituto la creamos).
+      ![FILTER](./images/filter.png)
+
+## 1.2. Configuración de Mozilla Thunderbird con Outlook
+Para el uso del cliente de escritorio, tenemos que configurar una cuenta de `outlook.com`.
+
+**Pasos seguidos para la conexión:**
+1.  **Preparación de la cuenta de Microsoft:**
+    * Debemos de crear si no la tenemos una cuenta de microsoft y en el apartado de reenvio aceptar pop e imap. 
+2.  **Configuración en Thunderbird:**
+    * Añadimos los servidores manualmente:
+        * **Entrada (IMAP):** `outlook.office365.com` (Puerto 993, SSL/TLS).
+        * **Salida (SMTP):** `smtp.office365.com` (Puerto 587, STARTTLS).
+        ![THUNDERBIRD](./images/conf_thunderbird.png)
+        ![THUNDERBIRD](./images/conf-smtp.png)
+
+---
+
 # Práctica 2 – Contenedor todo-en-uno Poste.io
 
 ## 1. Objetivo de la práctica
