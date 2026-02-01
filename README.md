@@ -1,4 +1,4 @@
-# 1. Redirección de correo y configuración cliente gráfico
+# Práctica 1 –  Redirección de correo y configuración cliente gráfico
 
 ## 1.1. Configuración de Redirección y Filtros
 El objetivo es redirigir los correos corporativos a una cuenta personal de Gmail para mejorar la gestión de los mensajes.
@@ -41,12 +41,6 @@ El objetivo de esta práctica es desplegar un servidor de correo **todo-en-uno**
 * Antispam y antivirus
 * Panel de administración web
 * Cliente de correo web (Webmail)
-
-Además, se deben cumplir los siguientes requisitos:
-
-* Crear un usuario de correo con una **cuota de 100 MB**.
-* Implementar **cifrado SSL/TLS** mediante un **certificado autofirmado**.
-* Acceder a la cuenta creada usando el **webmail integrado** en Poste.io.
 
 ---
 
